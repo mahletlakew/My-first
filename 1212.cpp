@@ -2,19 +2,19 @@
 using namespace std;
 
 int main() {
-    double num1, num2;
+    double x, y;
 
-    cout << "Enter first number: ";
-    cin >> num1;
+    cout << "Enter x: ";
+    cin >> x;
 
-    cout << "Enter second number: ";
-    cin >> num2;
+    cout << "Enter y: ";
+    cin >> y;
 
     // Check for division by zero
     if (num2 == 0) {
         cout << "Error: Cannot divide by zero!" << endl;
     } else {
-        double result = num1 / num2;
+        double result = x / y;
         cout << "Result: " << result << endl;
     }
 
